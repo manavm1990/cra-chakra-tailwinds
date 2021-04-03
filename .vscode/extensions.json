@@ -2,7 +2,7 @@
     "recommendations": [
       "2gua.rainbow-brackets",
       "aaron-bond.better-comments",
-      "bradlc.vscode-tailwindcss"
+      "bradlc.vscode-tailwindcss",
       "christian-kohler.npm-intellisense",
       "codezombiech.gitignore",
       "coenraads.bracket-pair-colorizer-2",
