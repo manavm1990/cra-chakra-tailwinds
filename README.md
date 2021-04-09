@@ -1,4 +1,4 @@
-# Create React App Customized with Linting and Chakra UI with Tailwinds 2
+# Create React App Customized with Linting and Chakra UI with Tailwinds
 
 - includes absolute imports using `src` as base for CRA with in `jsconfig.json`.
 - includes `components` and `pages` directories.
