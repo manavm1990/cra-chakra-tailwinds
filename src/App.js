@@ -3,7 +3,7 @@ import React from 'react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import './index.css';
 
-function App() {
+export default function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
@@ -14,5 +14,3 @@ function App() {
     </ChakraProvider>
   );
 }
-
-export default App;
