@@ -19,7 +19,8 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test"
+    "test": "craco test",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -49,18 +50,14 @@
     "autoprefixer": "^9.8.6",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-react": "^7.22.0",
-    "husky": "^4.3.8",
+    "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
     "postcss": "^7.0.35",
     "prettier": "2.2.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
-    "./**/*.{js,jsx}": "prettier --write"
+    "./**/*.{js,jsx}": "prettier --write",
+    "*.{js,md}": "prettier --write"
   }
 }
